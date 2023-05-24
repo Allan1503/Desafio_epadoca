@@ -6,7 +6,7 @@ namespace Epadoca.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O campo Nome é obrigatório.")]
         public string Nome { get; set; }
 
         public string InformacoesCadastrais { get; set; }
