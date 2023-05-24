@@ -3,7 +3,46 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <a href="@Url.Action("Create", "Padaria")" class="btn btn-primary">Cadastrar Padaria</a>
-</div>
+    <h1 class="display-4">Sobre Nós</h1>
+    <p>A Padaria XYZ é conhecida como a padaria mais famosa do Brasil, oferecendo produtos de alta qualidade e um ambiente acolhedor para seus clientes.</p>
+    
+    <h2>Localizações</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="caminho-da-imagem1" alt="Localização 1">
+            <h3>Localização 1</h3>
+            <p>Endereço 1</p>
+            <p>Telefone 1</p>
+        </div>
+        <div class="col-md-4">
+            <img src="caminho-da-imagem2" alt="Localização 2">
+            <h3>Localização 2</h3>
+            <p>Endereço 2</p>
+            <p>Telefone 2</p>
+        </div>
+        <div class="col-md-4">
+            <img src="caminho-da-imagem3" alt="Localização 3">
+            <h3>Localização 3</h3>
+            <p>Endereço 3</p>
+            <p>Telefone 3</p>
+        </div>
+    </div>
+
+    <h2>Contato do Suporte</h2>
+    <p>Entre em contato conosco através do formulário abaixo:</p>
+    <form action="url-do-formulario-de-contato" method="post">
+        <!-- Campos do formulário de contato -->
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" class="form-control" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+    </form>
