@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Epadoca.Repositories;
 
 namespace Epadoca
 {
@@ -18,6 +19,8 @@ namespace Epadoca
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddScoped<IPadariaRepository, PadariaRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
