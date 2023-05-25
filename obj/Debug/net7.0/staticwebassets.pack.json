@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\bolos.jpg",
+      "PackagePath": "staticwebassets\\img\\bolos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\lanches.jpg",
+      "PackagePath": "staticwebassets\\img\\lanches.jpg"
+    },
+    {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\paes.jpg",
+      "PackagePath": "staticwebassets\\img\\paes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\pizzas.jpg",
+      "PackagePath": "staticwebassets\\img\\pizzas.jpg"
+    },
+    {
       "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

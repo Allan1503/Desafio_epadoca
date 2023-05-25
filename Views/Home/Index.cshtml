@@ -1,28 +1,44 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
+﻿<div class="text-center">
     <h1 class="display-4">Sobre Nós</h1>
     <p>A Padaria XYZ é conhecida como a padaria mais famosa do Brasil, oferecendo produtos de alta qualidade e um ambiente acolhedor para seus clientes.</p>
     
-    <h2>Localizações</h2>
+    <h2>Produtos</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="~/img/paes.jpg" alt="Pães" class="product-image">
+            <h3>Pães</h3>
+        </div>
+        <div class="col-md-3">
+            <img src="~/img/bolos.jpg" alt="Bolos" class="product-image">
+            <h3>Bolos</h3>
+        </div>
+        <div class="col-md-3">
+            <img src="~/img/lanches.jpg" alt="Lanches" class="product-image">
+            <h3>Lanches</h3>
+        </div>
+        <div class="col-md-3">
+            <img src="~/img/pizzas.jpg" alt="Pizzas" class="product-image">
+            <h3>Pizzas</h3>
+        </div>
+    </div>
+
+    <h2>Padarias</h2>
     <div class="row">
         <div class="col-md-4">
-            <img src="caminho-da-imagem1" alt="Localização 1">
-            <h3>Localização 1</h3>
+            <img src="~/img/padaria1.jpg" alt="Localização 1">
+            <h3>Padaria 1</h3>
             <p>Endereço 1</p>
             <p>Telefone 1</p>
         </div>
         <div class="col-md-4">
-            <img src="caminho-da-imagem2" alt="Localização 2">
-            <h3>Localização 2</h3>
+            <img src="~/img/padaria2.jpg" alt="Localização 2">
+            <h3>Padaria 2</h3>
             <p>Endereço 2</p>
             <p>Telefone 2</p>
         </div>
         <div class="col-md-4">
-            <img src="caminho-da-imagem3" alt="Localização 3">
-            <h3>Localização 3</h3>
+            <img src="~/img/padaria3.jpg" alt="Localização 3">
+            <h3>Padaria 3</h3>
             <p>Endereço 3</p>
             <p>Telefone 3</p>
         </div>
@@ -46,3 +62,4 @@
         </div>
         <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
     </form>
+</div>

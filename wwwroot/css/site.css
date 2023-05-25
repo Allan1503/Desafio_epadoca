@@ -20,3 +20,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Estilo para as imagens dos produtos */
+.product-image {
+  width: 100%; /* Defina a largura desejada */
+  height: auto; /* A altura será ajustada proporcionalmente à largura */
+}
