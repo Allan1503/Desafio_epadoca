@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\img\\lanches.jpg"
     },
     {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\padaria1.jpg",
+      "PackagePath": "staticwebassets\\img\\padaria1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\padaria2.jpg",
+      "PackagePath": "staticwebassets\\img\\padaria2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\padaria3.jpg",
+      "PackagePath": "staticwebassets\\img\\padaria3.jpg"
+    },
+    {
       "Id": "C:\\Users\\allan\\Desktop\\desafio2\\wwwroot\\img\\paes.jpg",
       "PackagePath": "staticwebassets\\img\\paes.jpg"
     },

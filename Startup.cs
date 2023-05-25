@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace SeuProjeto
+namespace Epadoca
 {
     public class Startup
     {
@@ -40,14 +40,21 @@ namespace SeuProjeto
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "padaria",
-                    pattern: "Padaria/Create",
+                    name: "padaria-create",
+                    pattern: "/Padaria/Create",
                     defaults: new { controller = "Padaria", action = "Create" }
                 );
 
                 endpoints.MapControllerRoute(
+                    name: "padaria",
+                    pattern: "/Padaria/Padaria",
+                    defaults: new { controller = "Padaria", action = "Padaria" }
+                );
+
+                endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}"
+                );
             });
         }
     }

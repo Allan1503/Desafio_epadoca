@@ -18665,6 +18665,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\allan\\Desktop\\desafio2\\Views\\Padaria\\padaria.cshtml",
+      "TargetPath": "Views\\Padaria\\padaria.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\allan\\Desktop\\desafio2\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
