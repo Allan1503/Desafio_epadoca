@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\allan\\Desktop\\desafio2\\desafio2.csproj": {}
+    "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\desafio2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\allan\\Desktop\\desafio2\\desafio2.csproj": {
+    "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\desafio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allan\\Desktop\\desafio2\\desafio2.csproj",
+        "projectUniqueName": "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\desafio2.csproj",
         "projectName": "desafio2",
-        "projectPath": "C:\\Users\\allan\\Desktop\\desafio2\\desafio2.csproj",
+        "projectPath": "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\desafio2.csproj",
         "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allan\\Desktop\\desafio2\\obj\\",
+        "outputPath": "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,6 +46,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"

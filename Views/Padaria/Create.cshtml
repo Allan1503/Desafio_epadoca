@@ -1,23 +1,28 @@
-@model Epadoca.Models.Padaria
+@model Desafio_epadoca.Models.Padaria
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 
 <h2>Cadastro de Padaria</h2>
 
 @using (Html.BeginForm("Create", "Padaria", FormMethod.Post))
 {
+    @Html.ValidationSummary()
+
     <div>
         @Html.LabelFor(model => model.Nome)
-        @Html.TextBoxFor(model => model.Nome)
+        @Html.EditorFor(model => model.Nome)
         @Html.ValidationMessageFor(model => model.Nome)
     </div>
 
     <div>
         @Html.LabelFor(model => model.InformacoesCadastrais)
-        @Html.TextBoxFor(model => model.InformacoesCadastrais)
+        @Html.EditorFor(model => model.InformacoesCadastrais)
+        @Html.ValidationMessageFor(model => model.InformacoesCadastrais)
     </div>
 
     <div>
         @Html.LabelFor(model => model.Endereco)
-        @Html.TextBoxFor(model => model.Endereco)
+        @Html.EditorFor(model => model.Endereco)
+        @Html.ValidationMessageFor(model => model.Endereco)
     </div>
 
     <input type="submit" value="Salvar" />

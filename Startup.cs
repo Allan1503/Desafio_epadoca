@@ -1,11 +1,14 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Epadoca.Repositories;
+using Desafio_epadoca.Repositories;
+using Desafio_epadoca.Models;
+using Desafio_epadoca.Data;
 
-namespace Epadoca
+namespace Desafio_epadoca
 {
     public class Startup
     {
@@ -19,6 +22,9 @@ namespace Epadoca
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IPadariaRepository, PadariaRepository>();
         }
@@ -40,24 +46,18 @@ namespace Epadoca
 
             app.UseRouting();
 
+            app.UseAuthorization();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "padaria-create",
-                    pattern: "/Padaria/Create",
-                    defaults: new { controller = "Padaria", action = "Create" }
-                );
-
-                endpoints.MapControllerRoute(
-                    name: "padaria",
-                    pattern: "/Padaria/Padaria",
-                    defaults: new { controller = "Padaria", action = "Padaria" }
-                );
+                    name: "Padaria",
+                    pattern: "Padaria/padaria",
+                    defaults: new { controller = "Padaria", action = "Padaria" });
 
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}"
-                );
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
