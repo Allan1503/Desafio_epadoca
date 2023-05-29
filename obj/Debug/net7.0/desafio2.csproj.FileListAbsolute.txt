@@ -227,3 +227,5 @@ C:\Users\allan\Desktop\Desafio_epadoca\obj\Debug\net7.0\refint\desafio2.dll
 C:\Users\allan\Desktop\Desafio_epadoca\obj\Debug\net7.0\desafio2.pdb
 C:\Users\allan\Desktop\Desafio_epadoca\obj\Debug\net7.0\desafio2.genruntimeconfig.cache
 C:\Users\allan\Desktop\Desafio_epadoca\obj\Debug\net7.0\ref\desafio2.dll
+C:\Users\allan\Desktop\desafio2\Desafio_epadoca\bin\Debug\net7.0\package-lock.json
+C:\Users\allan\Desktop\desafio2\Desafio_epadoca\bin\Debug\net7.0\package.json

@@ -1,12 +1,11 @@
+using Desafio_epadoca.Data;
+using Desafio_epadoca.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Desafio_epadoca.Repositories;
-using Desafio_epadoca.Models;
-using Desafio_epadoca.Data;
 
 namespace Desafio_epadoca
 {
@@ -26,7 +25,10 @@ namespace Desafio_epadoca
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddScoped<IPadariaRepository, PadariaRepository>();
+            services.AddScoped<IContatoRepository, ContatoRepository>();
+
+            // Outras configurações e dependências...
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -6,17 +6,17 @@ namespace Desafio_epadoca.Repositories
 {
     public class PadariaRepository : IPadariaRepository
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext? _context;
 
-        public PadariaRepository(AppDbContext context)
+        public PadariaRepository(AppDbContext? context)
         {
             _context = context;
         }
 
         public void Add(Padaria padaria)
         {
-            _context.Padarias.Add(padaria);
-            _context.SaveChanges();
+            _context?.Set<Padaria>().Add(padaria);
+            _context?.SaveChanges();
         }
 
         public void Update(Padaria padaria)
