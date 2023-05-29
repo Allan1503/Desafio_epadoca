@@ -69,3 +69,72 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background-color: #1e70db;
 }
+
+/* icone */ 
+
+.custom-icon {
+  width: 60px;
+  height: 26px;
+}
+
+/* icone telefone */ 
+
+.telefone {
+  align-items: center;
+}
+
+.telefone svg {
+  margin-right: 5px;
+}
+
+
+/* Estilos para o formulário */
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #6c757d;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.modal-sheet .modal-dialog {
+  width: 380px;
+  transition: bottom .75s ease-in-out;
+}
+
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+}

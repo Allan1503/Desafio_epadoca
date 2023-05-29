@@ -26,6 +26,7 @@ namespace Desafio_epadoca
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IContatoRepository, ContatoRepository>();
+            services.AddScoped<IPadariaRepository, PadariaRepository>();
 
             // Outras configurações e dependências...
 
