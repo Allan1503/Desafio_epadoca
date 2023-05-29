@@ -1,3 +1,4 @@
+/* Tamanhos de fonte responsivos */
 html {
   font-size: 14px;
 }
@@ -8,10 +9,16 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+/* Estilo para o foco dos botões e campos */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
+.form-control:{background: gray;}
 
+/* Definições gerais de layout */
 html {
   position: relative;
   min-height: 100%;
@@ -19,12 +26,13 @@ html {
 
 body {
   margin-bottom: 60px;
+  background: #ffc07e;
 }
 
 /* Estilo para as imagens dos produtos */
 .product-image {
   width: 100%; /* Defina a largura desejada */
-  height: auto; /* A altura será ajustada proporcionalmente à largura */
+  height: 80%; /* A altura será ajustada proporcionalmente à largura */
 }
 
 /* Estilo para o formulário de cadastro de padaria */
@@ -34,6 +42,7 @@ h2 {
 }
 
 form {
+  margin-top: 50px;
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
@@ -70,14 +79,14 @@ form input[type="submit"]:hover {
   background-color: #1e70db;
 }
 
-/* icone */ 
+/* Estilo para o ícone */
 
 .custom-icon {
   width: 60px;
   height: 26px;
 }
 
-/* icone telefone */ 
+/* Estilo para o ícone do telefone */
 
 .telefone {
   align-items: center;
@@ -86,7 +95,6 @@ form input[type="submit"]:hover {
 .telefone svg {
   margin-right: 5px;
 }
-
 
 /* Estilos para o formulário */
 
@@ -138,3 +146,12 @@ button[type="submit"]:hover {
 .modal-sheet .modal-footer {
   padding-bottom: 2rem;
 }
+
+/* -------- logo */ 
+
+.logo {
+  width: 12%;
+  right: 86%;
+  position: absolute;
+}
+

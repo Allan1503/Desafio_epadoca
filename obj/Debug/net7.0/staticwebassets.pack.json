@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\wwwroot\\img\\Pao.png",
+      "PackagePath": "staticwebassets\\img\\Pao.png"
+    },
+    {
+      "Id": "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\wwwroot\\img\\PaoBrasil.png",
+      "PackagePath": "staticwebassets\\img\\PaoBrasil.png"
+    },
+    {
       "Id": "C:\\Users\\allan\\Desktop\\desafio2\\Desafio_epadoca\\wwwroot\\img\\bolos.jpg",
       "PackagePath": "staticwebassets\\img\\bolos.jpg"
     },
