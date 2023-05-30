@@ -7,6 +7,7 @@ namespace Desafio_epadoca.Data
     {
         public DbSet<Padaria>? Padarias { get; set; }
         public DbSet<Contato>? Contatos { get; set; }
+        public DbSet<Cadastro>? Cadastro { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
@@ -15,8 +16,11 @@ namespace Desafio_epadoca.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Padaria>().ToTable("Cadastro");
-            // Adicione outras configurações de modelo, se necessário
+            modelBuilder.Entity<Cadastro>(entity =>
+            {
+                entity.ToTable("cadastro");
+                // Adicione outras configurações de modelo, se necessário
+            });
         }
     }
 }

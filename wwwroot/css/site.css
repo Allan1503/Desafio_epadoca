@@ -1,4 +1,5 @@
 /* Tamanhos de fonte responsivos */
+
 html {
   font-size: 14px;
 }
@@ -10,15 +11,20 @@ html {
 }
 
 /* Estilo para o foco dos botões e campos */
+
 .btn:focus,
 .btn:active:focus,
 .btn-link.nav-link:focus,
 .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
-.form-control:{background: gray;}
+
+.form-control {
+  background: gray;
+}
 
 /* Definições gerais de layout */
+
 html {
   position: relative;
   min-height: 100%;
@@ -30,12 +36,14 @@ body {
 }
 
 /* Estilo para as imagens dos produtos */
+
 .product-image {
-  width: 100%; /* Defina a largura desejada */
-  height: 80%; /* A altura será ajustada proporcionalmente à largura */
+  width: 100%; 
+  height: 80%; 
 }
 
 /* Estilo para o formulário de cadastro de padaria */
+
 h2 {
   margin-top: 50px;
   text-align: center;
@@ -147,11 +155,10 @@ button[type="submit"]:hover {
   padding-bottom: 2rem;
 }
 
-/* -------- logo */ 
+/* Logo */
 
 .logo {
   width: 12%;
   right: 86%;
   position: absolute;
 }
-

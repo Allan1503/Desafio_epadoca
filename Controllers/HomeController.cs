@@ -1,7 +1,7 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using desafio2.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using desafio2.Models;
+using System.Diagnostics;
 
 namespace desafio2.Controllers
 {

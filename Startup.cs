@@ -29,7 +29,6 @@ namespace Desafio_epadoca
             services.AddScoped<IPadariaRepository, PadariaRepository>();
 
             // Outras configurações e dependências...
-
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -55,7 +54,7 @@ namespace Desafio_epadoca
             {
                 endpoints.MapControllerRoute(
                     name: "Padaria",
-                    pattern: "Padaria/padaria",
+                    pattern: "Padaria",
                     defaults: new { controller = "Padaria", action = "Padaria" });
 
                 endpoints.MapControllerRoute(

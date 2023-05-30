@@ -19,10 +19,10 @@ namespace Desafio_epadoca.Controllers
             if (ModelState.IsValid)
             {
                 _contatoRepository.Add(contato);
-                return RedirectToAction("Index", "Home"); // Redireciona para a página inicial após o envio da mensagem
+                return RedirectToAction("Index", "Home");
             }
 
-            return View(contato); // Retorna a view com os dados preenchidos em caso de erro de validação
+            return View(contato);
         }
     }
 }
