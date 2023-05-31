@@ -142,14 +142,11 @@ form input[type="submit"]:hover {
   background-color: #5228eb;
 }
 
-/* Estilo para o ícone */
 
 .custom-icon {
   width: 60px;
   height: 26px;
 }
-
-/* Estilo para o ícone do telefone */
 
 .telefone {
   align-items: center;
@@ -159,7 +156,6 @@ form input[type="submit"]:hover {
   margin-right: 5px;
 }
 
-/* Estilos para o formulário */
 
 .form {
   margin-top: 50px;
@@ -210,7 +206,6 @@ button[type="submit"]:hover {
   padding-bottom: 2rem;
 }
 
-/* Logo */
 
 .logo {
   width: 12%;
