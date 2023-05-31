@@ -1,3 +1,47 @@
+.clique{
+  text-align: center;
+}
+
+.expandir {
+  transition: height 0.3s ease;
+  overflow: hidden;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-right: 10px; /* Espaçamento entre os botões */
+  padding: 10px 20px; /* Espaçamento superior e inferior */
+}
+
+.expandir:hover {
+  height: 55px; /* Altura desejada para a expansão */
+  background-color: #5228eb; /* Cor de fundo quando expandido */
+  border-color: #5228eb; /* Cor da borda quando expandido */
+}
+
+.title-form{
+  align-items: center;
+  text-align: center;
+}
+
+.btn-form{
+  transition: height 0.3s ease;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.btn-form:hover{
+  height: 55px; /* Altura desejada para a expansão */
+  background-color: #5228eb; /* Cor de fundo quando expandido */
+  border-color: #5228eb; /* Cor da borda quando expandido */
+
+}
+
 /* Tamanhos de fonte responsivos */
 
 html {
@@ -62,9 +106,8 @@ h2 {
 }
 
 form {
-  margin-top: 50px;
+  margin-top: 16px;
   max-width: 500px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -96,7 +139,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #1e70db;
+  background-color: #5228eb;
 }
 
 /* Estilo para o ícone */
@@ -121,7 +164,6 @@ form input[type="submit"]:hover {
 .form {
   margin-top: 50px;
   max-width: 400px;
-  margin: 0 auto;
   padding: 20px;
   background-color: #6c757d;
   border: 1px solid #ddd;
@@ -156,7 +198,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #5228eb;
 }
 
 .modal-sheet .modal-dialog {

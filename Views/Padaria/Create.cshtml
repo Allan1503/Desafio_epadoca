@@ -7,11 +7,12 @@
     <title>Formulário</title>
   </head>
   <body>
+    <H1 class="title-form">Formulario para cadastro de novas Padarias</H1>
     <form action="http://localhost/formulario/processar_formulario.php" method="post" class="form">
       <label for="nome">Nome:</label>
       <input type="text" name="nome" id="nome" />
 
-      <label for="informacoesCadastrais">Informações Cadastrais:</label>
+      <label for="informacoesCadastrais">Fale sobre sua Padaria:</label>
       <input
         type="text"
         name="informacoesCadastrais"
@@ -21,7 +22,7 @@
       <label for="endereco">Endereço:</label>
       <input type="text" name="endereco" id="endereco" />
 
-      <input type="submit" value="Enviar" />
+      <input type="submit" value="Enviar" class="btn-form" />
     </form>
   </body>
 </html>
