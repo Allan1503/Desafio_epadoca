@@ -35,6 +35,12 @@ body {
   background: #ffc07e;
 }
 
+p {
+  margin: 20px auto; /* ajuste a margem conforme necessário */
+  max-width: 600px; /* ajuste a largura máxima do parágrafo conforme necessário */
+  text-align: justify; /* alinha o texto justificado */
+}
+
 /* Estilo para as imagens dos produtos */
 
 .product-image {
